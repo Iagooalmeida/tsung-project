@@ -1,0 +1,116 @@
+<?xml version="1.0"?><tsung loglevel="info" backend="text">
+  <clients>
+    <client host="localhost" use_controller_vm="true"/>
+  </clients>
+
+  <servers>
+    <server host="httpbin.org" port="443" type="ssl"/>
+  </servers>
+
+  <load>
+    <arrivalphase phase="1" duration="60" unit="second">
+      <users interarrival="2" unit="second"/>
+    </arrivalphase>
+    
+    <arrivalphase phase="2" duration="30" unit="second">
+      <users interarrival="0.5" unit="second"/>
+    </arrivalphase>
+  </load>
+
+  <options>
+    <option name="maxusers" value="100"/>
+  </options>
+
+  <sessions>
+    <session name="navegacao_produtos" probability="70" type="ts_http">
+  <transaction name="fluxo_navegacao">
+        <request tag="navegacao">
+          <http url="/get" method="GET"/>
+        </request>
+        <thinktime value="3" random="true"/>
+        
+        <request tag="navegacao">
+          <http url="/status/200" method="GET"/>
+        </request>
+        <thinktime value="2" random="true"/>
+        
+        <request tag="navegacao">
+          <http url="/get?categoria=eletronicos&amp;tipo=smartphone" method="GET"/>
+        </request>
+        <thinktime value="5" random="true"/>
+        
+        <request tag="navegacao">
+          <http url="/get?produto_id=12345&amp;action=detalhes" method="GET"/>
+        </request>
+        <thinktime value="4" random="true"/>
+        
+        <request tag="navegacao">
+          <http url="/get?produto_id=12345&amp;action=estoque" method="GET"/>
+        </request>
+        <thinktime value="2" random="true"/>
+        
+        <request tag="navegacao">
+          <http url="/get?action=sair" method="GET"/>
+        </request>
+      </transaction>
+    </session>
+
+    <session name="processo_compra" probability="30" type="ts_http">
+  <transaction name="fluxo_compra">
+        <request tag="compra">
+          <http url="/get" method="GET"/>
+        </request>
+        <thinktime value="2" random="true"/>
+        
+        <request tag="compra">
+          <http url="/post" method="POST" content_type="application/json" contents="{&quot;action&quot;:&quot;login&quot;,&quot;usuario&quot;:&quot;cliente123&quot;,&quot;senha&quot;:&quot;senha456&quot;}"/>
+        </request>
+        <thinktime value="3" random="true"/>
+        
+        <request tag="compra">
+          <http url="/get?categoria=eletronicos&amp;produto=smartphone_premium" method="GET"/>
+        </request>
+        <thinktime value="4" random="true"/>
+        
+        <request tag="compra">
+          <http url="/post" method="POST" content_type="application/json" contents="{&quot;action&quot;:&quot;adicionar_carrinho&quot;,&quot;produto_id&quot;:&quot;SPH-001&quot;,&quot;quantidade&quot;:1,&quot;preco&quot;:1299.99}"/>
+        </request>
+        <thinktime value="3" random="true"/>
+        
+        <request tag="compra">
+          <http url="/post" method="POST" content_type="application/json" contents="{&quot;action&quot;:&quot;adicionar_carrinho&quot;,&quot;produto_id&quot;:&quot;ACC-002&quot;,&quot;quantidade&quot;:2,&quot;preco&quot;:49.90}"/>
+        </request>
+        <thinktime value="2" random="true"/>
+        
+        <request tag="compra">
+          <http url="/get?action=carrinho&amp;usuario_id=cliente123" method="GET"/>
+        </request>
+        <thinktime value="5" random="true"/>
+        
+        <request tag="compra">
+          <http url="/post" method="POST" content_type="application/json" contents="{&quot;action&quot;:&quot;aplicar_cupom&quot;,&quot;codigo&quot;:&quot;DESCONTO10&quot;,&quot;usuario_id&quot;:&quot;cliente123&quot;}"/>
+        </request>
+        <thinktime value="2" random="true"/>
+        
+        <request tag="compra">
+          <http url="/post" method="POST" content_type="application/json" contents="{&quot;action&quot;:&quot;calcular_frete&quot;,&quot;cep&quot;:&quot;01234-567&quot;,&quot;peso&quot;:1.2}"/>
+        </request>
+        <thinktime value="4" random="true"/>
+        
+        <request tag="compra">
+          <http url="/post" method="POST" content_type="application/json" contents="{&quot;action&quot;:&quot;finalizar_compra&quot;,&quot;usuario_id&quot;:&quot;cliente123&quot;,&quot;total&quot;:1399.79,&quot;forma_pagamento&quot;:&quot;cartao_credito&quot;,&quot;parcelas&quot;:3}"/>
+        </request>
+        <thinktime value="6" random="true"/>
+        
+        <request tag="compra">
+          <http url="/get?action=confirmacao&amp;pedido_id=PED-789456" method="GET"/>
+        </request>
+        <thinktime value="3" random="true"/>
+        
+        <request tag="compra">
+          <http url="/post" method="POST" content_type="application/json" contents="{&quot;action&quot;:&quot;logout&quot;,&quot;usuario_id&quot;:&quot;cliente123&quot;}"/>
+        </request>
+      </transaction>
+    </session>
+  </sessions>
+</tsung>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE tsung SYSTEM "/usr/share/tsung/tsung-1.0.dtd">
+<tsung loglevel="info" backend="text">
+  <clients>
+    <client host="localhost" use_controller_vm="true" />
+  </clients>
+
+  <servers>
+    <server host="httpbin.org" port="443" type="ssl" />
+  </servers>
+
+  <load>
+    <arrivalphase phase="1" duration="30" unit="second">
+      <users interarrival="2" unit="second"/>
+    </arrivalphase>
+  </load>
+
+  <options>
+    <option type="ts_http" name="user_agent">
+      <user_agent probability="100">Mozilla/5.0 (compatible; Tsung)</user_agent>
+    </option>
+  </options>
+
+  <sessions>
+    <session name="simple_browse" probability="100" type="ts_http">
+      <!-- Navegação simples -->
+      <request>
+        <http url="/get" method="GET" />
+      </request>
+      
+      <thinktime value="2" random="true"/>
+      
+      <!-- Busca de produto -->
+      <request>
+        <http url="/get?q=produto" method="GET" />
+      </request>
+      
+      <thinktime value="3" random="true"/>
+      
+      <!-- Visualizar detalhes -->
+      <request>
+        <http url="/get?id=123" method="GET" />
+      </request>
+    </session>
+  </sessions>
+</tsung>

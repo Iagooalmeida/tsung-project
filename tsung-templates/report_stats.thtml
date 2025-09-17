@@ -1,0 +1,40 @@
+<table>
+<tr>
+  <th>Métrica</th>
+  <th>Valor</th>
+</tr>
+<tr>
+  <td>Duração do Teste</td>
+  <td><TMPL_VAR NAME="DURATION"></td>
+</tr>
+<tr>
+  <td>Total de Usuários</td>
+  <td><TMPL_VAR NAME="TOTALUSERS"></td>
+</tr>
+<tr>
+  <td>Taxa Máxima de Usuários</td>
+  <td><TMPL_VAR NAME="MAXUSERRATE"></td>
+</tr>
+<tr>
+  <td>Total de Requisições</td>
+  <td><TMPL_VAR NAME="TOTALREQUEST"></td>
+</tr>
+<tr>
+  <td>Taxa Máxima de Requisições</td>
+  <td><TMPL_VAR NAME="MAXRATE"></td>
+</tr>
+<tr>
+  <td>Tempo Médio de Resposta</td>
+  <td><TMPL_VAR NAME="MEANRESPONSETIME"></td>
+</tr>
+<tr>
+  <td>Sessões Completadas</td>
+  <td><TMPL_VAR NAME="SESSIONCOMPLETED"></td>
+</tr>
+<TMPL_IF NAME="SESSIONFAILED">
+<tr>
+  <td>Sessões Falharam</td>
+  <td><TMPL_VAR NAME="SESSIONFAILED"></td>
+</tr>
+</TMPL_IF>
+</table>

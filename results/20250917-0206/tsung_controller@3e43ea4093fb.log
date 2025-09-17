@@ -1,0 +1,1054 @@
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+    ts_config_server:(5:<0.135.0>) Config server started, logdir is "/root/.tsung/log/20250917-0206"
+ 
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+              ts_mon:(5:<0.118.0>) starting monitor, global 
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+           ts_config:(5:<0.135.0>) Reading config file: /config/test.xml
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+           ts_config:(4:<0.135.0>) Unknown option "maxusers" !
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+           ts_config:(5:<0.135.0>) Session name for id 1 is "navegacao_produtos"
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+           ts_config:(5:<0.135.0>) Session name for id 2 is "processo_compra"
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Tsung version: 1.7.0
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Erlang version: Erlang/OTP 25 [erts-13.1.5] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:8] [jit:ns]
+
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Current path: /usr/lib/x86_64-linux-gnu/tsung/tsung-1.7.0/ebin/tsung.beam
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+       ts_job_notify:(6:<0.148.0>) No listen port defined, can't open listening socket (don't worry: it's normal if you don't use job notifications) 
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+    ts_os_mon_erlang:(6:<0.157.0>) Running os_mon on the same host as the controller, use the same beam
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+              ts_mon:(5:<0.136.0>) Activate clients with text backend
+
+=INFO REPORT==== 17-Sep-2025::02:06:18 ===
+              ts_mon:(5:<0.136.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+    ts_config_server:(5:<0.135.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+              ts_sup:(6:<0.180.0>) starting supervisor ...
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+              ts_sup:(6:<0.181.0>) starting
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+          ts_ip_scan:(6:<0.182.0>) Starting 
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+     ts_launcher_mgr:(6:<0.183.0>) starting
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+    ts_session_cache:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+        ts_mon_cache:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+        ts_local_mon:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+       ts_client_sup:(6:<0.188.0>) Starting 
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+  ts_launcher_static:(6:<0.181.0>) starting 
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+         ts_launcher:(6:<0.181.0>) starting 
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+    ts_config_server:(6:<0.135.0>) Application started, activate launcher, 
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+  ts_launcher_static:(6:<0.135.0>) starting on node [tsung_controller@3e43ea4093fb]
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+         ts_launcher:(6:<0.135.0>) starting on node [tsung_controller@3e43ea4093fb]
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+  ts_launcher_static:(5:<0.189.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+         ts_launcher:(5:<0.190.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+     ts_launcher_mgr:(6:<0.183.0>) syncing already done, skip
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+              ts_mon:(6:<0.136.0>) A launcher has started
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+  ts_launcher_static:(6:<0.189.0>) No static users, stop
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+  ts_launcher_static:(6:<0.189.0>) launcher terminating for reason normal
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+    ts_config_server:(5:<0.135.0>) New arrival phase 1 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+    ts_config_server:(5:<0.135.0>) New arrival phase 2 for client "localhost" (last ? true): will start 60 users
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+         ts_launcher:(5:<0.190.0>) Expected duration of first phase: 60.0 sec (30 users) 
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+         ts_launcher:(5:<0.190.0>) Activate launcher (30 users) in 1186 msec 
+
+=INFO REPORT==== 17-Sep-2025::02:06:19 ===
+    ts_os_mon_erlang:(6:<0.157.0>) Spawn monitoring process on localhost (<0.191.0>)
+
+=INFO REPORT==== 17-Sep-2025::02:06:20 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:20 ===
+           ts_client:(6:<0.192.0>) Starting new transaction tr_fluxo_navegacao (now-576460748823643066)
+
+=INFO REPORT==== 17-Sep-2025::02:06:21 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:21 ===
+           ts_client:(6:<0.206.0>) Starting new transaction tr_fluxo_compra (now-576460747455194417)
+
+=INFO REPORT==== 17-Sep-2025::02:06:22 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:22 ===
+           ts_client:(6:<0.212.0>) Starting new transaction tr_fluxo_navegacao (now-576460746965692476)
+
+=INFO REPORT==== 17-Sep-2025::02:06:23 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:23 ===
+           ts_client:(6:<0.217.0>) Starting new transaction tr_fluxo_compra (now-576460746053773246)
+
+=INFO REPORT==== 17-Sep-2025::02:06:24 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:24 ===
+           ts_client:(6:<0.222.0>) Starting new transaction tr_fluxo_navegacao (now-576460744420788058)
+
+=INFO REPORT==== 17-Sep-2025::02:06:29 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:29 ===
+           ts_client:(6:<0.229.0>) Starting new transaction tr_fluxo_navegacao (now-576460739927691780)
+
+=INFO REPORT==== 17-Sep-2025::02:06:36 ===
+           ts_client:(6:<0.229.0>) Stopping transaction tr_fluxo_navegacao (-576460732602434412)
+
+=INFO REPORT==== 17-Sep-2025::02:06:36 ===
+           ts_client:(6:<0.229.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:06:37 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:37 ===
+           ts_client:(6:<0.234.0>) Starting new transaction tr_fluxo_navegacao (now-576460731619748571)
+
+=INFO REPORT==== 17-Sep-2025::02:06:40 ===
+           ts_client:(6:<0.222.0>) Stopping transaction tr_fluxo_navegacao (-576460728208187240)
+
+=INFO REPORT==== 17-Sep-2025::02:06:40 ===
+           ts_client:(6:<0.222.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:06:41 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:41 ===
+           ts_client:(6:<0.240.0>) Starting new transaction tr_fluxo_compra (now-576460728030799200)
+
+=INFO REPORT==== 17-Sep-2025::02:06:42 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:42 ===
+           ts_client:(6:<0.245.0>) Starting new transaction tr_fluxo_compra (now-576460726582692431)
+
+=INFO REPORT==== 17-Sep-2025::02:06:44 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:44 ===
+           ts_client:(6:<0.250.0>) Starting new transaction tr_fluxo_navegacao (now-576460724974693960)
+
+=INFO REPORT==== 17-Sep-2025::02:06:45 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:45 ===
+           ts_client:(6:<0.255.0>) Starting new transaction tr_fluxo_compra (now-576460723937454766)
+
+=INFO REPORT==== 17-Sep-2025::02:06:45 ===
+           ts_client:(6:<0.212.0>) Stopping transaction tr_fluxo_navegacao (-576460723682432468)
+
+=INFO REPORT==== 17-Sep-2025::02:06:45 ===
+           ts_client:(6:<0.212.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:06:45 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:45 ===
+           ts_client:(6:<0.260.0>) Starting new transaction tr_fluxo_navegacao (now-576460723199466917)
+
+=INFO REPORT==== 17-Sep-2025::02:06:46 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:46 ===
+           ts_client:(6:<0.265.0>) Starting new transaction tr_fluxo_navegacao (now-576460722410809746)
+
+=INFO REPORT==== 17-Sep-2025::02:06:50 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:50 ===
+           ts_client:(6:<0.271.0>) Starting new transaction tr_fluxo_navegacao (now-576460718810761184)
+
+=INFO REPORT==== 17-Sep-2025::02:06:51 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:51 ===
+           ts_client:(6:<0.276.0>) Starting new transaction tr_fluxo_navegacao (now-576460717544804414)
+
+=INFO REPORT==== 17-Sep-2025::02:06:52 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:52 ===
+           ts_client:(6:<0.281.0>) Starting new transaction tr_fluxo_navegacao (now-576460716156724079)
+
+=INFO REPORT==== 17-Sep-2025::02:06:55 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:55 ===
+           ts_client:(6:<0.286.0>) Starting new transaction tr_fluxo_compra (now-576460713931749960)
+
+=INFO REPORT==== 17-Sep-2025::02:06:55 ===
+           ts_client:(6:<0.206.0>) Stopping transaction tr_fluxo_compra (-576460713604358687)
+
+=INFO REPORT==== 17-Sep-2025::02:06:55 ===
+           ts_client:(6:<0.206.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:06:56 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:56 ===
+           ts_client:(6:<0.291.0>) Starting new transaction tr_fluxo_compra (now-576460712168804068)
+
+=INFO REPORT==== 17-Sep-2025::02:06:59 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:06:59 ===
+           ts_client:(6:<0.297.0>) Starting new transaction tr_fluxo_navegacao (now-576460709911830347)
+
+=INFO REPORT==== 17-Sep-2025::02:06:59 ===
+           ts_client:(6:<0.260.0>) Stopping transaction tr_fluxo_navegacao (-576460709625233920)
+
+=INFO REPORT==== 17-Sep-2025::02:06:59 ===
+           ts_client:(6:<0.260.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:01 ===
+           ts_client:(6:<0.192.0>) Stopping transaction tr_fluxo_navegacao (-576460707913639923)
+
+=INFO REPORT==== 17-Sep-2025::02:07:01 ===
+           ts_client:(6:<0.192.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:01 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:02 ===
+           ts_client:(6:<0.302.0>) Starting new transaction tr_fluxo_navegacao (now-576460707110788244)
+
+=INFO REPORT==== 17-Sep-2025::02:07:02 ===
+           ts_client:(6:<0.234.0>) Stopping transaction tr_fluxo_navegacao (-576460706895931303)
+
+=INFO REPORT==== 17-Sep-2025::02:07:02 ===
+           ts_client:(6:<0.234.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:02 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:02 ===
+           ts_client:(6:<0.307.0>) Starting new transaction tr_fluxo_navegacao (now-576460706212869905)
+
+=INFO REPORT==== 17-Sep-2025::02:07:02 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:02 ===
+           ts_client:(6:<0.308.0>) Starting new transaction tr_fluxo_navegacao (now-576460706123633237)
+
+=INFO REPORT==== 17-Sep-2025::02:07:03 ===
+           ts_client:(6:<0.217.0>) Stopping transaction tr_fluxo_compra (-576460705587068509)
+
+=INFO REPORT==== 17-Sep-2025::02:07:03 ===
+           ts_client:(6:<0.217.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:03 ===
+           ts_client:(6:<0.250.0>) Stopping transaction tr_fluxo_navegacao (-576460705532691818)
+
+=INFO REPORT==== 17-Sep-2025::02:07:03 ===
+           ts_client:(6:<0.250.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:03 ===
+           ts_client:(6:<0.271.0>) Stopping transaction tr_fluxo_navegacao (-576460705159955938)
+
+=INFO REPORT==== 17-Sep-2025::02:07:03 ===
+           ts_client:(6:<0.271.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:04 ===
+           ts_client:(6:<0.265.0>) Stopping transaction tr_fluxo_navegacao (-576460705000388452)
+
+=INFO REPORT==== 17-Sep-2025::02:07:04 ===
+           ts_client:(6:<0.265.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:05 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:05 ===
+           ts_client:(6:<0.317.0>) Starting new transaction tr_fluxo_compra (now-576460704070619326)
+
+=INFO REPORT==== 17-Sep-2025::02:07:07 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:07 ===
+           ts_client:(6:<0.322.0>) Starting new transaction tr_fluxo_compra (now-576460701859775116)
+
+=INFO REPORT==== 17-Sep-2025::02:07:10 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:10 ===
+           ts_client:(6:<0.328.0>) Starting new transaction tr_fluxo_navegacao (now-576460699068828862)
+
+=INFO REPORT==== 17-Sep-2025::02:07:11 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:11 ===
+           ts_client:(6:<0.333.0>) Starting new transaction tr_fluxo_navegacao (now-576460697689877174)
+
+=INFO REPORT==== 17-Sep-2025::02:07:11 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:11 ===
+           ts_client:(6:<0.334.0>) Starting new transaction tr_fluxo_compra (now-576460697551767984)
+
+=INFO REPORT==== 17-Sep-2025::02:07:11 ===
+           ts_client:(6:<0.302.0>) Stopping transaction tr_fluxo_navegacao (-576460697173940090)
+
+=INFO REPORT==== 17-Sep-2025::02:07:11 ===
+           ts_client:(6:<0.302.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:12 ===
+           ts_client:(6:<0.276.0>) Stopping transaction tr_fluxo_navegacao (-576460696862765293)
+
+=INFO REPORT==== 17-Sep-2025::02:07:12 ===
+           ts_client:(6:<0.276.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:12 ===
+           ts_client:(6:<0.281.0>) Stopping transaction tr_fluxo_navegacao (-576460696186926263)
+
+=INFO REPORT==== 17-Sep-2025::02:07:12 ===
+           ts_client:(6:<0.281.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:13 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:13 ===
+           ts_client:(6:<0.343.0>) Starting new transaction tr_fluxo_navegacao (now-576460695182849871)
+
+=INFO REPORT==== 17-Sep-2025::02:07:15 ===
+           ts_client:(6:<0.307.0>) Stopping transaction tr_fluxo_navegacao (-576460694105825731)
+
+=INFO REPORT==== 17-Sep-2025::02:07:15 ===
+           ts_client:(6:<0.307.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:16 ===
+           ts_client:(6:<0.308.0>) Stopping transaction tr_fluxo_navegacao (-576460692189070103)
+
+=INFO REPORT==== 17-Sep-2025::02:07:16 ===
+           ts_client:(6:<0.308.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:17 ===
+           ts_client:(6:<0.245.0>) Stopping transaction tr_fluxo_compra (-576460691959150013)
+
+=INFO REPORT==== 17-Sep-2025::02:07:17 ===
+           ts_client:(6:<0.245.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:18 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:18 ===
+           ts_client:(6:<0.348.0>) Starting new transaction tr_fluxo_navegacao (now-576460690776851324)
+
+=INFO REPORT==== 17-Sep-2025::02:07:19 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:19 ===
+         ts_launcher:(4:<0.190.0>) Need to wait 0.378 sec before changing phase, going to sleep
+
+=INFO REPORT==== 17-Sep-2025::02:07:19 ===
+           ts_client:(6:<0.354.0>) Starting new transaction tr_fluxo_navegacao (now-576460689416660655)
+
+=INFO REPORT==== 17-Sep-2025::02:07:20 ===
+         ts_launcher:(5:<0.190.0>) Waking up
+
+=INFO REPORT==== 17-Sep-2025::02:07:20 ===
+         ts_launcher:(5:<0.190.0>) Start a new arrival phase (60 users, 0.002); expected duration=30.0 sec
+
+=INFO REPORT==== 17-Sep-2025::02:07:20 ===
+           ts_client:(6:<0.240.0>) Stopping transaction tr_fluxo_compra (-576460688375455812)
+
+=INFO REPORT==== 17-Sep-2025::02:07:20 ===
+           ts_client:(6:<0.240.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:26 ===
+           ts_client:(6:<0.333.0>) Stopping transaction tr_fluxo_navegacao (-576460682511977951)
+
+=INFO REPORT==== 17-Sep-2025::02:07:26 ===
+           ts_client:(6:<0.333.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:27 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:27 ===
+           ts_client:(6:<0.359.0>) Starting new transaction tr_fluxo_navegacao (now-576460682047128819)
+
+=INFO REPORT==== 17-Sep-2025::02:07:27 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:27 ===
+           ts_client:(6:<0.364.0>) Starting new transaction tr_fluxo_compra (now-576460681442874483)
+
+=INFO REPORT==== 17-Sep-2025::02:07:28 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:28 ===
+           ts_client:(6:<0.369.0>) Starting new transaction tr_fluxo_navegacao (now-576460680859795471)
+
+=INFO REPORT==== 17-Sep-2025::02:07:28 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:28 ===
+           ts_client:(6:<0.374.0>) Starting new transaction tr_fluxo_navegacao (now-576460680543331129)
+
+=INFO REPORT==== 17-Sep-2025::02:07:28 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:28 ===
+           ts_client:(6:<0.375.0>) Starting new transaction tr_fluxo_navegacao (now-576460680433839908)
+
+=INFO REPORT==== 17-Sep-2025::02:07:28 ===
+           ts_client:(6:<0.328.0>) Stopping transaction tr_fluxo_navegacao (-576460680258652776)
+
+=INFO REPORT==== 17-Sep-2025::02:07:28 ===
+           ts_client:(6:<0.328.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:29 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:29 ===
+           ts_client:(6:<0.385.0>) Starting new transaction tr_fluxo_compra (now-576460679618861438)
+
+=INFO REPORT==== 17-Sep-2025::02:07:29 ===
+           ts_client:(6:<0.297.0>) Stopping transaction tr_fluxo_navegacao (-576460679454525497)
+
+=INFO REPORT==== 17-Sep-2025::02:07:29 ===
+           ts_client:(6:<0.297.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:29 ===
+           ts_client:(6:<0.348.0>) Stopping transaction tr_fluxo_navegacao (-576460679343236879)
+
+=INFO REPORT==== 17-Sep-2025::02:07:29 ===
+           ts_client:(6:<0.348.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:30 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:30 ===
+           ts_client:(6:<0.390.0>) Starting new transaction tr_fluxo_compra (now-576460678895744452)
+
+=INFO REPORT==== 17-Sep-2025::02:07:30 ===
+           ts_client:(6:<0.286.0>) Stopping transaction tr_fluxo_compra (-576460678586836540)
+
+=INFO REPORT==== 17-Sep-2025::02:07:30 ===
+           ts_client:(6:<0.286.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:31 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:31 ===
+           ts_client:(6:<0.395.0>) Starting new transaction tr_fluxo_navegacao (now-576460677131782700)
+
+=INFO REPORT==== 17-Sep-2025::02:07:32 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:32 ===
+           ts_client:(6:<0.396.0>) Starting new transaction tr_fluxo_navegacao (now-576460677080892813)
+
+=INFO REPORT==== 17-Sep-2025::02:07:32 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:32 ===
+           ts_client:(6:<0.405.0>) Starting new transaction tr_fluxo_navegacao (now-576460676627225209)
+
+=INFO REPORT==== 17-Sep-2025::02:07:32 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:32 ===
+           ts_client:(6:<0.406.0>) Starting new transaction tr_fluxo_compra (now-576460676494752665)
+
+=INFO REPORT==== 17-Sep-2025::02:07:32 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:32 ===
+           ts_client:(6:<0.415.0>) Starting new transaction tr_fluxo_navegacao (now-576460676167786970)
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+           ts_client:(6:<0.291.0>) Stopping transaction tr_fluxo_compra (-576460676066523753)
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+           ts_client:(6:<0.291.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+           ts_client:(6:<0.420.0>) Starting new transaction tr_fluxo_navegacao (now-576460675703840137)
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+           ts_client:(6:<0.421.0>) Starting new transaction tr_fluxo_compra (now-576460675551602024)
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+           ts_client:(6:<0.422.0>) Starting new transaction tr_fluxo_navegacao (now-576460675549555999)
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+           ts_client:(6:<0.343.0>) Stopping transaction tr_fluxo_navegacao (-576460675388412409)
+
+=INFO REPORT==== 17-Sep-2025::02:07:33 ===
+           ts_client:(6:<0.343.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:34 ===
+           ts_client:(6:<0.255.0>) Stopping transaction tr_fluxo_compra (-576460675019967960)
+
+=INFO REPORT==== 17-Sep-2025::02:07:34 ===
+           ts_client:(6:<0.255.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:34 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:34 ===
+           ts_client:(6:<0.435.0>) Starting new transaction tr_fluxo_navegacao (now-576460674568159243)
+
+=INFO REPORT==== 17-Sep-2025::02:07:34 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:34 ===
+           ts_client:(6:<0.436.0>) Starting new transaction tr_fluxo_navegacao (now-576460674518766852)
+
+=INFO REPORT==== 17-Sep-2025::02:07:35 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:35 ===
+           ts_client:(6:<0.445.0>) Starting new transaction tr_fluxo_navegacao (now-576460673847802483)
+
+=INFO REPORT==== 17-Sep-2025::02:07:35 ===
+           ts_client:(6:<0.354.0>) Stopping transaction tr_fluxo_navegacao (-576460673173146819)
+
+=INFO REPORT==== 17-Sep-2025::02:07:35 ===
+           ts_client:(6:<0.354.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:37 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:37 ===
+           ts_client:(6:<0.450.0>) Starting new transaction tr_fluxo_navegacao (now-576460671254442201)
+
+=INFO REPORT==== 17-Sep-2025::02:07:38 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:38 ===
+           ts_client:(6:<0.455.0>) Starting new transaction tr_fluxo_navegacao (now-576460670382640520)
+
+=INFO REPORT==== 17-Sep-2025::02:07:38 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:38 ===
+           ts_client:(6:<0.456.0>) Starting new transaction tr_fluxo_navegacao (now-576460670343863967)
+
+=INFO REPORT==== 17-Sep-2025::02:07:39 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:39 ===
+           ts_client:(6:<0.466.0>) Starting new transaction tr_fluxo_compra (now-576460670103850959)
+
+=INFO REPORT==== 17-Sep-2025::02:07:39 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:39 ===
+           ts_client:(6:<0.467.0>) Starting new transaction tr_fluxo_navegacao (now-576460670051675370)
+
+=INFO REPORT==== 17-Sep-2025::02:07:39 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:39 ===
+           ts_client:(6:<0.476.0>) Starting new transaction tr_fluxo_navegacao (now-576460669160843851)
+
+=INFO REPORT==== 17-Sep-2025::02:07:40 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:40 ===
+           ts_client:(6:<0.481.0>) Starting new transaction tr_fluxo_navegacao (now-576460668837649433)
+
+=INFO REPORT==== 17-Sep-2025::02:07:40 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:40 ===
+           ts_client:(6:<0.486.0>) Starting new transaction tr_fluxo_navegacao (now-576460668627823457)
+
+=INFO REPORT==== 17-Sep-2025::02:07:41 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:41 ===
+           ts_client:(6:<0.491.0>) Starting new transaction tr_fluxo_navegacao (now-576460667911577638)
+
+=INFO REPORT==== 17-Sep-2025::02:07:41 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:41 ===
+           ts_client:(6:<0.496.0>) Starting new transaction tr_fluxo_navegacao (now-576460667575724164)
+
+=INFO REPORT==== 17-Sep-2025::02:07:41 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:41 ===
+           ts_client:(6:<0.501.0>) Starting new transaction tr_fluxo_compra (now-576460667290958162)
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+           ts_client:(6:<0.506.0>) Starting new transaction tr_fluxo_navegacao (now-576460666818426389)
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+           ts_client:(6:<0.509.0>) Starting new transaction tr_fluxo_compra (now-576460666642034391)
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+           ts_client:(6:<0.512.0>) Starting new transaction tr_fluxo_compra (now-576460666507839438)
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+           ts_client:(6:<0.521.0>) Starting new transaction tr_fluxo_compra (now-576460666244909920)
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+           ts_client:(6:<0.359.0>) Stopping transaction tr_fluxo_navegacao (-576460666204060020)
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+           ts_client:(6:<0.359.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:42 ===
+           ts_client:(6:<0.522.0>) Starting new transaction tr_fluxo_navegacao (now-576460666148600447)
+
+=INFO REPORT==== 17-Sep-2025::02:07:43 ===
+           ts_client:(6:<0.445.0>) Stopping transaction tr_fluxo_navegacao (-576460665260460493)
+
+=INFO REPORT==== 17-Sep-2025::02:07:43 ===
+           ts_client:(6:<0.445.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:43 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:43 ===
+           ts_client:(6:<0.531.0>) Starting new transaction tr_fluxo_navegacao (now-576460665254820585)
+
+=INFO REPORT==== 17-Sep-2025::02:07:44 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:44 ===
+           ts_client:(6:<0.536.0>) Starting new transaction tr_fluxo_navegacao (now-576460664763603980)
+
+=INFO REPORT==== 17-Sep-2025::02:07:44 ===
+           ts_client:(6:<0.369.0>) Stopping transaction tr_fluxo_navegacao (-576460664420788058)
+
+=INFO REPORT==== 17-Sep-2025::02:07:44 ===
+           ts_client:(6:<0.369.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:45 ===
+           ts_client:(6:<0.317.0>) Stopping transaction tr_fluxo_compra (-576460663848303100)
+
+=INFO REPORT==== 17-Sep-2025::02:07:45 ===
+           ts_client:(6:<0.317.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:45 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:45 ===
+           ts_client:(6:<0.541.0>) Starting new transaction tr_fluxo_navegacao (now-576460663449237320)
+
+=INFO REPORT==== 17-Sep-2025::02:07:45 ===
+           ts_client:(6:<0.435.0>) Stopping transaction tr_fluxo_navegacao (-576460663299627506)
+
+=INFO REPORT==== 17-Sep-2025::02:07:45 ===
+           ts_client:(6:<0.435.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:46 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:46 ===
+           ts_client:(6:<0.546.0>) Starting new transaction tr_fluxo_compra (now-576460662508580509)
+
+=INFO REPORT==== 17-Sep-2025::02:07:46 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:46 ===
+           ts_client:(6:<0.547.0>) Starting new transaction tr_fluxo_navegacao (now-576460662353611518)
+
+=INFO REPORT==== 17-Sep-2025::02:07:46 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:46 ===
+           ts_client:(6:<0.552.0>) Starting new transaction tr_fluxo_navegacao (now-576460662343611641)
+
+=INFO REPORT==== 17-Sep-2025::02:07:47 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:47 ===
+           ts_client:(6:<0.561.0>) Starting new transaction tr_fluxo_compra (now-576460662021500449)
+
+=INFO REPORT==== 17-Sep-2025::02:07:47 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:47 ===
+           ts_client:(6:<0.562.0>) Starting new transaction tr_fluxo_navegacao (now-576460661969237120)
+
+=INFO REPORT==== 17-Sep-2025::02:07:47 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:47 ===
+           ts_client:(6:<0.571.0>) Starting new transaction tr_fluxo_navegacao (now-576460661779598896)
+
+=INFO REPORT==== 17-Sep-2025::02:07:47 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:47 ===
+           ts_client:(6:<0.576.0>) Starting new transaction tr_fluxo_navegacao (now-576460661301879944)
+
+=INFO REPORT==== 17-Sep-2025::02:07:48 ===
+           ts_client:(6:<0.450.0>) Stopping transaction tr_fluxo_navegacao (-576460660369237496)
+
+=INFO REPORT==== 17-Sep-2025::02:07:48 ===
+           ts_client:(6:<0.450.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:49 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:49 ===
+           ts_client:(6:<0.582.0>) Starting new transaction tr_fluxo_compra (now-576460659976697919)
+
+=INFO REPORT==== 17-Sep-2025::02:07:49 ===
+           ts_client:(6:<0.481.0>) Stopping transaction tr_fluxo_navegacao (-576460659562707931)
+
+=INFO REPORT==== 17-Sep-2025::02:07:49 ===
+           ts_client:(6:<0.481.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+         ts_launcher:(4:<0.190.0>) Phase duration exceeded, more than 20% (23.3%) of users were not launched in time (14 users), tsung may be overloaded !
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+         ts_launcher:(5:<0.190.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+         ts_launcher:(6:<0.190.0>) launcher terminating for reason normal
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+     ts_launcher_mgr:(6:<0.183.0>) All launchers are done on node tsung_controller@3e43ea4093fb, wait for active clients to finish
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+           ts_client:(6:<0.587.0>) Starting new transaction tr_fluxo_navegacao (now-576460659015555153)
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+           ts_client:(6:<0.374.0>) Stopping transaction tr_fluxo_navegacao (-576460658804186744)
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+           ts_client:(6:<0.374.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+           ts_client:(6:<0.436.0>) Stopping transaction tr_fluxo_navegacao (-576460658320252213)
+
+=INFO REPORT==== 17-Sep-2025::02:07:50 ===
+           ts_client:(6:<0.436.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:51 ===
+           ts_client:(6:<0.491.0>) Stopping transaction tr_fluxo_navegacao (-576460657998291265)
+
+=INFO REPORT==== 17-Sep-2025::02:07:51 ===
+           ts_client:(6:<0.491.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:51 ===
+           ts_client:(6:<0.396.0>) Stopping transaction tr_fluxo_navegacao (-576460657900181655)
+
+=INFO REPORT==== 17-Sep-2025::02:07:51 ===
+           ts_client:(6:<0.396.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:52 ===
+           ts_client:(6:<0.455.0>) Stopping transaction tr_fluxo_navegacao (-576460656501160125)
+
+=INFO REPORT==== 17-Sep-2025::02:07:52 ===
+           ts_client:(6:<0.455.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:53 ===
+           ts_client:(6:<0.531.0>) Stopping transaction tr_fluxo_navegacao (-576460655601549916)
+
+=INFO REPORT==== 17-Sep-2025::02:07:53 ===
+           ts_client:(6:<0.531.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:53 ===
+           ts_client:(6:<0.420.0>) Stopping transaction tr_fluxo_navegacao (-576460655409914896)
+
+=INFO REPORT==== 17-Sep-2025::02:07:53 ===
+           ts_client:(6:<0.420.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:54 ===
+           ts_client:(6:<0.486.0>) Stopping transaction tr_fluxo_navegacao (-576460654167387150)
+
+=INFO REPORT==== 17-Sep-2025::02:07:54 ===
+           ts_client:(6:<0.486.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:56 ===
+           ts_client:(6:<0.415.0>) Stopping transaction tr_fluxo_navegacao (-576460653076415150)
+
+=INFO REPORT==== 17-Sep-2025::02:07:56 ===
+           ts_client:(6:<0.415.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:56 ===
+           ts_client:(6:<0.562.0>) Stopping transaction tr_fluxo_navegacao (-576460652760427854)
+
+=INFO REPORT==== 17-Sep-2025::02:07:56 ===
+           ts_client:(6:<0.562.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:57 ===
+           ts_client:(6:<0.522.0>) Stopping transaction tr_fluxo_navegacao (-576460651936901651)
+
+=INFO REPORT==== 17-Sep-2025::02:07:57 ===
+           ts_client:(6:<0.522.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:57 ===
+           ts_client:(6:<0.456.0>) Stopping transaction tr_fluxo_navegacao (-576460651505258029)
+
+=INFO REPORT==== 17-Sep-2025::02:07:57 ===
+           ts_client:(6:<0.456.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:58 ===
+           ts_client:(6:<0.385.0>) Stopping transaction tr_fluxo_compra (-576460650277018054)
+
+=INFO REPORT==== 17-Sep-2025::02:07:58 ===
+           ts_client:(6:<0.385.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:07:59 ===
+           ts_client:(6:<0.405.0>) Stopping transaction tr_fluxo_navegacao (-576460650088704869)
+
+=INFO REPORT==== 17-Sep-2025::02:07:59 ===
+           ts_client:(6:<0.405.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:00 ===
+           ts_client:(6:<0.406.0>) Stopping transaction tr_fluxo_compra (-576460648968886456)
+
+=INFO REPORT==== 17-Sep-2025::02:08:00 ===
+           ts_client:(6:<0.406.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:00 ===
+           ts_client:(6:<0.541.0>) Stopping transaction tr_fluxo_navegacao (-576460648961030397)
+
+=INFO REPORT==== 17-Sep-2025::02:08:00 ===
+           ts_client:(6:<0.541.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:00 ===
+           ts_client:(6:<0.390.0>) Stopping transaction tr_fluxo_compra (-576460648956352086)
+
+=INFO REPORT==== 17-Sep-2025::02:08:00 ===
+           ts_client:(6:<0.390.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:00 ===
+           ts_client:(6:<0.506.0>) Stopping transaction tr_fluxo_navegacao (-576460648453055968)
+
+=INFO REPORT==== 17-Sep-2025::02:08:00 ===
+           ts_client:(6:<0.506.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:01 ===
+           ts_client:(6:<0.571.0>) Stopping transaction tr_fluxo_navegacao (-576460647279873322)
+
+=INFO REPORT==== 17-Sep-2025::02:08:01 ===
+           ts_client:(6:<0.571.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:01 ===
+           ts_client:(6:<0.476.0>) Stopping transaction tr_fluxo_navegacao (-576460647137720082)
+
+=INFO REPORT==== 17-Sep-2025::02:08:01 ===
+           ts_client:(6:<0.476.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:03 ===
+           ts_client:(6:<0.576.0>) Stopping transaction tr_fluxo_navegacao (-576460645878994085)
+
+=INFO REPORT==== 17-Sep-2025::02:08:03 ===
+           ts_client:(6:<0.576.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:03 ===
+           ts_client:(6:<0.364.0>) Stopping transaction tr_fluxo_compra (-576460645832418393)
+
+=INFO REPORT==== 17-Sep-2025::02:08:03 ===
+           ts_client:(6:<0.364.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:03 ===
+           ts_client:(6:<0.395.0>) Stopping transaction tr_fluxo_navegacao (-576460645509491192)
+
+=INFO REPORT==== 17-Sep-2025::02:08:03 ===
+           ts_client:(6:<0.395.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:04 ===
+           ts_client:(6:<0.422.0>) Stopping transaction tr_fluxo_navegacao (-576460645085347527)
+
+=INFO REPORT==== 17-Sep-2025::02:08:04 ===
+           ts_client:(6:<0.422.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:05 ===
+           ts_client:(6:<0.467.0>) Stopping transaction tr_fluxo_navegacao (-576460643612423415)
+
+=INFO REPORT==== 17-Sep-2025::02:08:05 ===
+           ts_client:(6:<0.467.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:07 ===
+           ts_client:(6:<0.552.0>) Stopping transaction tr_fluxo_navegacao (-576460642098680567)
+
+=INFO REPORT==== 17-Sep-2025::02:08:07 ===
+           ts_client:(6:<0.552.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:07 ===
+           ts_client:(6:<0.496.0>) Stopping transaction tr_fluxo_navegacao (-576460641965649783)
+
+=INFO REPORT==== 17-Sep-2025::02:08:07 ===
+           ts_client:(6:<0.496.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:09 ===
+           ts_client:(6:<0.521.0>) Stopping transaction tr_fluxo_compra (-576460640036125964)
+
+=INFO REPORT==== 17-Sep-2025::02:08:09 ===
+           ts_client:(6:<0.521.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:10 ===
+           ts_client:(6:<0.547.0>) Stopping transaction tr_fluxo_navegacao (-576460638816606211)
+
+=INFO REPORT==== 17-Sep-2025::02:08:10 ===
+           ts_client:(6:<0.547.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:11 ===
+           ts_client:(6:<0.334.0>) Stopping transaction tr_fluxo_compra (-576460637711718151)
+
+=INFO REPORT==== 17-Sep-2025::02:08:11 ===
+           ts_client:(6:<0.334.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:12 ===
+           ts_client:(6:<0.509.0>) Stopping transaction tr_fluxo_compra (-576460636247811974)
+
+=INFO REPORT==== 17-Sep-2025::02:08:12 ===
+           ts_client:(6:<0.509.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:14 ===
+           ts_client:(6:<0.375.0>) Stopping transaction tr_fluxo_navegacao (-576460635088323210)
+
+=INFO REPORT==== 17-Sep-2025::02:08:14 ===
+           ts_client:(6:<0.375.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:15 ===
+           ts_client:(6:<0.466.0>) Stopping transaction tr_fluxo_compra (-576460633896683115)
+
+=INFO REPORT==== 17-Sep-2025::02:08:15 ===
+           ts_client:(6:<0.466.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:17 ===
+           ts_client:(6:<0.421.0>) Stopping transaction tr_fluxo_compra (-576460631347397874)
+
+=INFO REPORT==== 17-Sep-2025::02:08:17 ===
+           ts_client:(6:<0.421.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:18 ===
+           ts_client:(6:<0.322.0>) Stopping transaction tr_fluxo_compra (-576460630822337019)
+
+=INFO REPORT==== 17-Sep-2025::02:08:18 ===
+           ts_client:(6:<0.322.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:20 ===
+           ts_client:(6:<0.587.0>) Stopping transaction tr_fluxo_navegacao (-576460628294237943)
+
+=INFO REPORT==== 17-Sep-2025::02:08:20 ===
+           ts_client:(6:<0.587.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:22 ===
+           ts_client:(6:<0.512.0>) Stopping transaction tr_fluxo_compra (-576460627037763490)
+
+=INFO REPORT==== 17-Sep-2025::02:08:22 ===
+           ts_client:(6:<0.512.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:22 ===
+           ts_client:(6:<0.546.0>) Stopping transaction tr_fluxo_compra (-576460626768876330)
+
+=INFO REPORT==== 17-Sep-2025::02:08:22 ===
+           ts_client:(6:<0.546.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:26 ===
+           ts_client:(6:<0.582.0>) Stopping transaction tr_fluxo_compra (-576460622461138148)
+
+=INFO REPORT==== 17-Sep-2025::02:08:26 ===
+           ts_client:(6:<0.582.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:33 ===
+           ts_client:(6:<0.561.0>) Stopping transaction tr_fluxo_compra (-576460615867688539)
+
+=INFO REPORT==== 17-Sep-2025::02:08:33 ===
+           ts_client:(6:<0.561.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:35 ===
+           ts_client:(6:<0.501.0>) Stopping transaction tr_fluxo_compra (-576460613648865912)
+
+=INFO REPORT==== 17-Sep-2025::02:08:35 ===
+           ts_client:(6:<0.501.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:37 ===
+           ts_client:(6:<0.536.0>) Stopping transaction tr_fluxo_navegacao (-576460611589255822)
+
+=INFO REPORT==== 17-Sep-2025::02:08:37 ===
+           ts_client:(6:<0.536.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:08:40 ===
+     ts_launcher_mgr:(5:<0.183.0>) No more active users tsung_controller@3e43ea4093fb "16"
+
+=INFO REPORT==== 17-Sep-2025::02:08:40 ===
+              ts_mon:(6:<0.136.0>) Stop asked, no more users, last launcher stopped, OK to stop

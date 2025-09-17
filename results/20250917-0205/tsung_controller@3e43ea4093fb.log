@@ -1,0 +1,214 @@
+
+=INFO REPORT==== 17-Sep-2025::02:05:11 ===
+    ts_config_server:(5:<0.135.0>) Config server started, logdir is "/root/.tsung/log/20250917-0205"
+ 
+=INFO REPORT==== 17-Sep-2025::02:05:11 ===
+              ts_mon:(5:<0.118.0>) starting monitor, global 
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+           ts_config:(5:<0.135.0>) Reading config file: /config/test_simple.xml
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+      ts_config_http:(4:<0.135.0>) Get user agent: 100 "Mozilla/5.0 (compatible; Tsung)" 
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+           ts_config:(5:<0.135.0>) Session name for id 1 is "simple_browse"
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Tsung version: 1.7.0
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Erlang version: Erlang/OTP 25 [erts-13.1.5] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:8] [jit:ns]
+
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Current path: /usr/lib/x86_64-linux-gnu/tsung/tsung-1.7.0/ebin/tsung.beam
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+       ts_job_notify:(6:<0.148.0>) No listen port defined, can't open listening socket (don't worry: it's normal if you don't use job notifications) 
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+    ts_os_mon_erlang:(6:<0.157.0>) Running os_mon on the same host as the controller, use the same beam
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+              ts_mon:(5:<0.136.0>) Activate clients with text backend
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+              ts_mon:(5:<0.136.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+    ts_config_server:(5:<0.135.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+              ts_sup:(6:<0.180.0>) starting supervisor ...
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+              ts_sup:(6:<0.181.0>) starting
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+          ts_ip_scan:(6:<0.182.0>) Starting 
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+     ts_launcher_mgr:(6:<0.183.0>) starting
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+    ts_session_cache:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+        ts_mon_cache:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+        ts_local_mon:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+       ts_client_sup:(6:<0.188.0>) Starting 
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+  ts_launcher_static:(6:<0.181.0>) starting 
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+         ts_launcher:(6:<0.181.0>) starting 
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+    ts_config_server:(6:<0.135.0>) Application started, activate launcher, 
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+  ts_launcher_static:(6:<0.135.0>) starting on node [tsung_controller@3e43ea4093fb]
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+         ts_launcher:(6:<0.135.0>) starting on node [tsung_controller@3e43ea4093fb]
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+  ts_launcher_static:(5:<0.189.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+         ts_launcher:(5:<0.190.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 17-Sep-2025::02:05:12 ===
+              ts_mon:(6:<0.136.0>) A launcher has started
+
+=INFO REPORT==== 17-Sep-2025::02:05:13 ===
+  ts_launcher_static:(6:<0.189.0>) No static users, stop
+=INFO REPORT==== 17-Sep-2025::02:05:13 ===
+  ts_launcher_static:(6:<0.189.0>) launcher terminating for reason normal
+
+=INFO REPORT==== 17-Sep-2025::02:05:13 ===
+     ts_launcher_mgr:(6:<0.183.0>) syncing already done, skip
+
+=INFO REPORT==== 17-Sep-2025::02:05:13 ===
+    ts_config_server:(5:<0.135.0>) New arrival phase 1 for client "localhost" (last ? true): will start 15 users
+
+=INFO REPORT==== 17-Sep-2025::02:05:13 ===
+         ts_launcher:(5:<0.190.0>) Expected duration of first phase: 30.0 sec (15 users) 
+
+=INFO REPORT==== 17-Sep-2025::02:05:13 ===
+         ts_launcher:(5:<0.190.0>) Activate launcher (15 users) in 1539 msec 
+
+=INFO REPORT==== 17-Sep-2025::02:05:13 ===
+    ts_os_mon_erlang:(6:<0.157.0>) Spawn monitoring process on localhost (<0.191.0>)
+
+=INFO REPORT==== 17-Sep-2025::02:05:14 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:16 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:17 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:17 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:18 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:18 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:19 ===
+           ts_client:(6:<0.201.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:19 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:20 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:21 ===
+           ts_client:(6:<0.192.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:21 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:21 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:24 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:24 ===
+           ts_client:(6:<0.241.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:25 ===
+           ts_client:(6:<0.236.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:28 ===
+           ts_client:(6:<0.206.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:28 ===
+           ts_client:(6:<0.231.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:29 ===
+           ts_client:(6:<0.212.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:29 ===
+           ts_client:(6:<0.247.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:29 ===
+           ts_client:(6:<0.221.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:30 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:31 ===
+           ts_client:(6:<0.226.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:31 ===
+           ts_client:(6:<0.207.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:33 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:37 ===
+           ts_client:(6:<0.252.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:38 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:41 ===
+           ts_client:(6:<0.263.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:43 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:05:43 ===
+         ts_launcher:(5:<0.190.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 17-Sep-2025::02:05:43 ===
+         ts_launcher:(6:<0.190.0>) launcher terminating for reason normal
+
+=INFO REPORT==== 17-Sep-2025::02:05:43 ===
+     ts_launcher_mgr:(6:<0.183.0>) All launchers are done on node tsung_controller@3e43ea4093fb, wait for active clients to finish
+
+=INFO REPORT==== 17-Sep-2025::02:05:44 ===
+           ts_client:(6:<0.258.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:52 ===
+           ts_client:(6:<0.269.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:05:53 ===
+     ts_launcher_mgr:(5:<0.183.0>) No more active users tsung_controller@3e43ea4093fb "67"
+
+=INFO REPORT==== 17-Sep-2025::02:05:54 ===
+              ts_mon:(6:<0.136.0>) Stop asked, no more users, last launcher stopped, OK to stop

@@ -1,0 +1,679 @@
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(5:<0.135.0>) Config server started, logdir is "/root/.tsung/log/20250917-0202"
+ 
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+              ts_mon:(5:<0.118.0>) starting monitor, global 
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+           ts_config:(5:<0.135.0>) Reading config file: /config/test.xml
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+           ts_config:(4:<0.135.0>) Unknown option "maxusers" !
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+           ts_config:(5:<0.135.0>) Session name for id 1 is "navegacao-produtos"
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+           ts_config:(5:<0.135.0>) Session name for id 2 is "processo-compra"
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Tsung version: 1.7.0
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Erlang version: Erlang/OTP 25 [erts-13.1.5] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:8] [jit:ns]
+
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(4:<0.135.0>) SYSINFO:Current path: /usr/lib/x86_64-linux-gnu/tsung/tsung-1.7.0/ebin/tsung.beam
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+       ts_job_notify:(6:<0.148.0>) No listen port defined, can't open listening socket (don't worry: it's normal if you don't use job notifications) 
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_os_mon_erlang:(6:<0.157.0>) Running os_mon on the same host as the controller, use the same beam
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+              ts_mon:(5:<0.136.0>) Activate clients with text backend
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+              ts_mon:(5:<0.136.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(5:<0.135.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+              ts_sup:(6:<0.180.0>) starting supervisor ...
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+              ts_sup:(6:<0.181.0>) starting
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+          ts_ip_scan:(6:<0.182.0>) Starting 
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+     ts_launcher_mgr:(6:<0.183.0>) starting
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_session_cache:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+        ts_mon_cache:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+        ts_local_mon:(6:<0.181.0>) Starting
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+       ts_client_sup:(6:<0.188.0>) Starting 
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+  ts_launcher_static:(6:<0.181.0>) starting 
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+         ts_launcher:(6:<0.181.0>) starting 
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(6:<0.135.0>) Application started, activate launcher, 
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+  ts_launcher_static:(6:<0.135.0>) starting on node [tsung_controller@3e43ea4093fb]
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+         ts_launcher:(6:<0.135.0>) starting on node [tsung_controller@3e43ea4093fb]
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+  ts_launcher_static:(5:<0.189.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+              ts_mon:(6:<0.136.0>) A launcher has started
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+         ts_launcher:(5:<0.190.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+     ts_launcher_mgr:(6:<0.183.0>) syncing already done, skip
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(5:<0.135.0>) New arrival phase 1 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+  ts_launcher_static:(6:<0.189.0>) No static users, stop
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+  ts_launcher_static:(6:<0.189.0>) launcher terminating for reason normal
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+    ts_config_server:(5:<0.135.0>) New arrival phase 2 for client "localhost" (last ? true): will start 60 users
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+         ts_launcher:(5:<0.190.0>) Expected duration of first phase: 60.0 sec (30 users) 
+
+=INFO REPORT==== 17-Sep-2025::02:02:26 ===
+         ts_launcher:(5:<0.190.0>) Activate launcher (30 users) in 1109 msec 
+
+=INFO REPORT==== 17-Sep-2025::02:02:27 ===
+    ts_os_mon_erlang:(6:<0.157.0>) Spawn monitoring process on localhost (<0.191.0>)
+
+=INFO REPORT==== 17-Sep-2025::02:02:27 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:28 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:28 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:29 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:31 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:32 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:33 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:34 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:35 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:35 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:39 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:41 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:42 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:43 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:44 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:45 ===
+           ts_client:(6:<0.221.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:02:45 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:50 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:50 ===
+           ts_client:(6:<0.216.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:02:51 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:53 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:53 ===
+           ts_client:(6:<0.236.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:02:54 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:56 ===
+           ts_client:(6:<0.192.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:02:56 ===
+           ts_client:(6:<0.206.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:02:57 ===
+           ts_client:(6:<0.241.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:02:59 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:02:59 ===
+           ts_client:(6:<0.262.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:00 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:00 ===
+           ts_client:(6:<0.288.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:00 ===
+           ts_client:(6:<0.267.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:01 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:02 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:02 ===
+           ts_client:(6:<0.200.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:03 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:06 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:06 ===
+           ts_client:(6:<0.252.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:07 ===
+           ts_client:(6:<0.211.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:09 ===
+           ts_client:(6:<0.247.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:09 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:12 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:13 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:13 ===
+           ts_client:(6:<0.272.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:13 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:13 ===
+         ts_launcher:(4:<0.190.0>) Need to wait 13.764 sec before changing phase, going to sleep
+
+=INFO REPORT==== 17-Sep-2025::02:03:14 ===
+           ts_client:(6:<0.293.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:18 ===
+           ts_client:(6:<0.226.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:19 ===
+           ts_client:(6:<0.304.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:19 ===
+           ts_client:(6:<0.314.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:22 ===
+           ts_client:(6:<0.231.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:22 ===
+           ts_client:(6:<0.309.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:23 ===
+           ts_client:(6:<0.336.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:23 ===
+           ts_client:(6:<0.278.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:24 ===
+           ts_client:(6:<0.283.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:27 ===
+         ts_launcher:(5:<0.190.0>) Waking up
+
+=INFO REPORT==== 17-Sep-2025::02:03:27 ===
+         ts_launcher:(5:<0.190.0>) Start a new arrival phase (60 users, 0.002); expected duration=30.0 sec
+
+=INFO REPORT==== 17-Sep-2025::02:03:29 ===
+           ts_client:(6:<0.351.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:30 ===
+           ts_client:(6:<0.341.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:30 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:30 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:31 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:32 ===
+           ts_client:(6:<0.346.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:32 ===
+           ts_client:(6:<0.299.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:32 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:33 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:33 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:34 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:35 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:35 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:35 ===
+           ts_client:(6:<0.257.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:36 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:36 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:37 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:37 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:37 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:37 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:37 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:37 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:38 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:38 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:39 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:39 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:40 ===
+           ts_client:(6:<0.324.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:40 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:40 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:40 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:41 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:42 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:42 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:42 ===
+           ts_client:(6:<0.373.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:42 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:43 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:44 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:44 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:44 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:44 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:44 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:45 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:45 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:45 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:46 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:46 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:47 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:47 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:47 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:47 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:47 ===
+           ts_client:(6:<0.416.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:48 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:48 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:48 ===
+           ts_client:(6:<0.378.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:48 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:49 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:49 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:49 ===
+           ts_client:(6:<0.449.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:50 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:50 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:51 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:51 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:51 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:51 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:52 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:52 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:52 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:53 ===
+           ts_client:(6:<0.439.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:53 ===
+           ts_client:(6:<0.393.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:53 ===
+           ts_client:(6:<0.368.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:54 ===
+           ts_client:(6:<0.415.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:55 ===
+    ts_config_server:(6:<0.135.0>) Session 2 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:55 ===
+           ts_client:(6:<0.383.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:55 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:56 ===
+    ts_config_server:(6:<0.135.0>) Session 1 chosen
+
+=INFO REPORT==== 17-Sep-2025::02:03:56 ===
+         ts_launcher:(5:<0.190.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 17-Sep-2025::02:03:56 ===
+         ts_launcher:(6:<0.190.0>) launcher terminating for reason normal
+
+=INFO REPORT==== 17-Sep-2025::02:03:56 ===
+     ts_launcher_mgr:(6:<0.183.0>) All launchers are done on node tsung_controller@3e43ea4093fb, wait for active clients to finish
+
+=INFO REPORT==== 17-Sep-2025::02:03:56 ===
+           ts_client:(6:<0.394.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:56 ===
+           ts_client:(6:<0.434.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:57 ===
+           ts_client:(6:<0.319.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:57 ===
+           ts_client:(6:<0.484.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:58 ===
+           ts_client:(6:<0.565.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:59 ===
+           ts_client:(6:<0.454.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:59 ===
+           ts_client:(6:<0.544.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:03:59 ===
+           ts_client:(6:<0.499.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:02 ===
+           ts_client:(6:<0.485.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:02 ===
+           ts_client:(6:<0.549.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:03 ===
+           ts_client:(6:<0.403.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:05 ===
+           ts_client:(6:<0.566.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:06 ===
+           ts_client:(6:<0.529.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:06 ===
+           ts_client:(6:<0.414.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:06 ===
+           ts_client:(6:<0.655.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:06 ===
+           ts_client:(6:<0.611.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:06 ===
+           ts_client:(6:<0.470.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:07 ===
+           ts_client:(6:<0.421.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:08 ===
+           ts_client:(6:<0.600.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:09 ===
+           ts_client:(6:<0.601.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:10 ===
+           ts_client:(6:<0.585.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:10 ===
+           ts_client:(6:<0.650.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:11 ===
+           ts_client:(6:<0.556.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:11 ===
+           ts_client:(6:<0.514.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:11 ===
+           ts_client:(6:<0.636.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:12 ===
+           ts_client:(6:<0.616.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:13 ===
+           ts_client:(6:<0.358.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:14 ===
+           ts_client:(6:<0.464.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:15 ===
+           ts_client:(6:<0.635.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:15 ===
+           ts_client:(6:<0.595.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:16 ===
+           ts_client:(6:<0.590.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:19 ===
+           ts_client:(6:<0.530.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:19 ===
+           ts_client:(6:<0.359.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:19 ===
+           ts_client:(6:<0.505.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:19 ===
+           ts_client:(6:<0.504.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:20 ===
+           ts_client:(6:<0.520.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:20 ===
+           ts_client:(6:<0.610.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:20 ===
+           ts_client:(6:<0.494.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:22 ===
+           ts_client:(6:<0.555.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:23 ===
+           ts_client:(6:<0.479.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:27 ===
+           ts_client:(6:<0.645.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:27 ===
+           ts_client:(6:<0.469.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:27 ===
+           ts_client:(6:<0.621.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:30 ===
+           ts_client:(6:<0.580.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:31 ===
+           ts_client:(6:<0.575.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:31 ===
+           ts_client:(6:<0.535.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:34 ===
+           ts_client:(6:<0.444.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:35 ===
+           ts_client:(6:<0.630.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:36 ===
+           ts_client:(6:<0.409.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:37 ===
+           ts_client:(6:<0.519.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:39 ===
+           ts_client:(6:<0.455.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:43 ===
+           ts_client:(6:<0.388.0>) Session ending 
+
+=INFO REPORT==== 17-Sep-2025::02:04:46 ===
+     ts_launcher_mgr:(5:<0.183.0>) No more active users tsung_controller@3e43ea4093fb "16"
+
+=INFO REPORT==== 17-Sep-2025::02:04:46 ===
+              ts_mon:(6:<0.136.0>) Stop asked, no more users, last launcher stopped, OK to stop

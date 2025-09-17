@@ -1,0 +1,82 @@
+services:
+  tsung:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tsung
+    volumes:
+      - ./config:/config:ro
+      - ./results:/root/.tsung/log
+      - ./create_index.sh:/create_index.sh:ro
+    ports:
+      - "8091:8091"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8091/ > /dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    command:
+      - sh
+      - -lc
+      - |
+          set -u
+          mkdir -p /root/.tsung/log
+          # Tenta iniciar com config principal; se falhar (ex: DTD inválido), faz fallback para config simples
+          echo "[entrypoint] Iniciando Tsung com /config/test.xml (-k para manter web UI em 8091)"
+          if ! tsung -f /config/test.xml -k start; then
+            echo "[entrypoint] Falha ao iniciar com /config/test.xml. Fallback para /config/test_simple.xml"
+            tsung -f /config/test_simple.xml -k start
+          fi
+          echo "Tsung iniciado; os logs aparecerão em ~/.tsung/log/<data-hora>/ (montado em ./results) e o dashboard em http://localhost:8091"
+          echo "Aguardando teste completar..."
+          while :; do
+            for f in /root/.tsung/log/*/tsung.log; do
+              if [ -f "$$f" ]; then
+                echo "Arquivo de log encontrado: $$f"
+                # Verifica se o teste finalizou (busca por indicadores de finalização)
+                d=$(dirname "$$f")
+                testdir=$(basename "$$d")
+                echo "Verificando finalização do teste $$testdir..."
+                
+                if [ -f "$$d/tsung_controller"*.log ]; then
+                  if grep -q "No more active users\|OK to stop" "$$d/tsung_controller"*.log; then
+                    echo "Teste $$testdir finalizado!"
+                    # Verifica se os relatórios já foram gerados
+                    if [ ! -f "$$d/report.html" ]; then
+                      echo "Gerando relatórios para $$testdir..."
+                      (
+                        cd "$$d" && \
+                        /usr/lib/x86_64-linux-gnu/tsung/bin/tsung_stats.pl --dygraph .
+                      )
+                      # Cria página inicial amigável usando script externo
+                      bash /create_index.sh "$$testdir" "$$d"
+                      echo "Relatórios gerados com sucesso em $$d"
+                    else
+                      echo "Relatórios já existem para $$testdir"
+                    fi
+                  else
+                    echo "Teste $$testdir ainda não finalizou"
+                  fi
+                else
+                  echo "Arquivo controller não encontrado para $$testdir"
+                fi
+                exec tail -F "$$f"
+              fi
+            done
+            sleep 5
+          done
+    tty: true
+    stdin_open: true
+
+  viewer:
+    image: nginx:alpine
+    container_name: tsung-viewer
+    ports:
+      - "8080:80"
+    volumes:
+      - ./results:/usr/share/nginx/html/results:ro
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    command: ["nginx", "-g", "daemon off;"]
+    restart: unless-stopped
