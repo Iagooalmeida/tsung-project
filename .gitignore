@@ -1,0 +1,8 @@
+# Ignorar resultados de testes do Tsung
+results/
+
+# Ignorar artefatos comuns
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
